@@ -1,0 +1,13 @@
+[package]
+name = "symbol-conflicts-aws-lc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4"
+openssl = "0.10.40"
+aws-lc = {git = "https://github.com/justsmth/rust-aws-lc", branch = "explore-aws-lc-bindings"}
+aws-lc-sys = {git = "https://github.com/justsmth/rust-aws-lc", branch = "explore-aws-lc-bindings"}
+#aws-lc = {path = "/Users/justsmth/repos/rust-aws-lc" }
